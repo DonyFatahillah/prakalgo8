@@ -1,0 +1,10 @@
+def ganjilhuruf(hasil):
+    x = hasil.replace(" ", "")
+    z = x[1::2]
+    return z
+
+stringinput = input("Masukan Sebuah Kata : ")
+
+a = ganjilhuruf(stringinput)
+
+print(f"Karakter Index Ganjil : {a}")
